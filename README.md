@@ -4,7 +4,8 @@ treehash.js is a node.js implementation of the SHA256 Tree Hash algorithm, notab
 
 ## Use
 
-```var fs = require('fs');
+```node
+var fs = require('fs');
 var treehash = require('./treehash');
 
 fs.readFile('./treehash.js', function(err, buffer) {
