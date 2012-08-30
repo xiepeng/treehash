@@ -2,6 +2,7 @@
 
 treehash.js is a node.js implementation of the SHA256 Tree Hash algorithm, notably used by Amazon Glacier.
 
+For more information, AWS has a good read through: http://docs.amazonwebservices.com/amazonglacier/latest/dev/checksum-calculations.html
 ## Use
 
 ```node
@@ -13,3 +14,4 @@ fs.readFile('./treehash.js', function(err, buffer) {
   console.log("SHA256 Tree Hash -", sha)
 })
 ```
+
