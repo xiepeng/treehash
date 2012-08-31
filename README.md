@@ -7,7 +7,8 @@ For more information, AWS has a good read through: http://docs.amazonwebservices
 
 ```bash
 npm install treehash
-````
+```
+
 ```node
 var fs = require('fs');
 var treehash = require('treehash');
