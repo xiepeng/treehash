@@ -2,6 +2,6 @@
   "name": "treehash",
   "version": "0.0.2",
   "description": "SHA256 Tree Hash Algorithm",
-  "main": "treehash.js",
+  "main": "lib/treehash.js",
   "dependencies": {}
 }

@@ -13,8 +13,8 @@ npm install treehash
 var fs = require('fs');
 var treehash = require('treehash');
 
-fs.readFile('./treehash.js', function(err, buffer) {
-  var sha = treehash(buffer)
+fs.readFile('./lib/treehash.js', function(err, buffer) {
+  var sha = treehash.getTreeHashFromBuffer(buffer)
   console.log("SHA256 Tree Hash -", sha)
 })
 ```
